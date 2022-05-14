@@ -1,0 +1,1243 @@
+@media (min-width: 640px) and (max-width: 1300px) {
+    h1 {
+      font-size: 2rem;
+      margin-bottom: auto;
+      display: inline;
+      margin-left: 10px;
+    }
+  
+    .lnk {
+      font-size: 1.2rem;
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      text-decoration: none;
+      color: #000000;
+    }
+    .quotes {
+      font-size: 1.8rem;
+      text-align: center;
+    }
+  
+    .nextHeaderBttn1 {
+      border: 2px solid #000000;
+      background-color: #ffdd55;
+      font-size: 1.2rem;
+      font-family: "Urbanist", sans-serif;
+      width: 30%;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 1rem;
+      filter: drop-shadow(0 3px 0px white) drop-shadow(0 2px 0px black)
+        drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+    }
+  
+    .featureWindow {
+      width: 65vw;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  
+    .upBttn {
+      height: 5vh;
+      width: 5vh;
+      background-color: #ffdd55;
+      border: 2px solid #000000;
+      border-radius: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.5rem;
+      text-align: center;
+      font-family: "Roboto Mono", monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  
+    .upBttn:active {
+      filter: invert(10%);
+    }
+  
+    .upBttn i:hover {
+      transform: translateY(-5px);
+    }
+  
+    .featureContainer {
+      width: 90%;
+      height: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .featureSlideContainer {
+      height: 100%;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+    }
+  
+    .card {
+      width: 100%;
+      height: 90%;
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      margin-top: auto;
+      margin-bottom: auto;
+      border: 2px solid #000000;
+      border-radius: 2rem;
+      background-color: #ffffff;
+      animation: tempVis 1s ease-in-out 1;
+    }
+  
+    .cardContent {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: space-around;
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .cardImageFrame {
+      width: 18vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+    }
+  
+    .cardImage {
+      all: revert;
+      height: 75%;
+      margin-top: 7.5%;
+      overflow: hidden;
+    }
+  
+    .featureDotContainer {
+      height: 100%;
+      width: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: space-around;
+    }
+  
+    .dot {
+      height: 0.4rem;
+      width: 0.4rem;
+      border-radius: 10rem;
+      background-color: #ffffff;
+      border: 2px solid #000000;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .downBttn {
+      height: 5vh;
+      width: 5vw;
+      background-color: #ff9955;
+      border: 2px solid #000000;
+      border-radius: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.5rem;
+      text-align: center;
+      font-family: "Roboto Mono", monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  
+    .downBttn:active {
+      filter: invert(10%);
+    }
+  
+    .downBttn i:hover {
+      transform: translateY(5px);
+    }
+  
+    .line5 {
+      height: 10px;
+      width: 100%;
+      background-color: #ff9955;
+      transform: rotate(-5deg);
+    }
+    .content {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+    .stepsWindow {
+      width: 100vw;
+      height: 150vh;
+      display: frid;
+      grid-template-columns: repeat(3, 30vw);
+      justify-content: space-around;
+      align-content: space-evenly;
+    }
+  
+    .tag {
+      width: 25vw;
+      height: 45vh;
+      background-color: #ffffff;
+      border: 2px solid #000000;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-wrap: wrap;
+      filter: drop-shadow(0 3px 0px white) drop-shadow(0 2px 0px black);
+    }
+  
+    .tagText {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .tagImg {
+      width: 20vh;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .templateWindow {
+      width: 70vw;
+      height: 70vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  
+    .leftBttn {
+      height: 5vh;
+      width: 5vw;
+      background-color: #ffdd55;
+      border: 2px solid #000000;
+      border-radius: 15px;
+      font-size: 1.5rem;
+      text-align: center;
+      font-family: "Roboto Mono", monospace;
+      margin-top: auto;
+      margin-bottom: auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      place-items: center;
+      cursor: pointer;
+    }
+  
+    .leftBttn:active {
+      filter: invert(10%);
+    }
+  
+    .leftBttn i:hover {
+      transform: translateX(-5px);
+    }
+  
+    .templateContainer {
+      height: 90%;
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  
+    .templateSlideContainer {
+      height: 85%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .templateCard {
+      height: 100%;
+      width: 100%;
+      border: 2px solid #000000;
+      border-radius: 2rem;
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      background-color: #ffffff;
+      animation: tempVis 1s ease-in-out 1;
+    }
+  
+    @keyframes tempVis {
+      0% {
+        opacity: 0;
+      }
+  
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    .templateCardImage {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    .templateImage {
+      height: 50%;
+    }
+  
+    .templateCardText {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    .templateText {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .templateDotContainer {
+      height: 15%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    .point {
+      height: 10px;
+      width: 10px;
+      border-radius: 10rem;
+      background-color: #ffffff;
+      border: 2px solid #000000;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  
+    .rightBttn {
+      height: 5vh;
+      width: 5vw;
+      background-color: #ff9955;
+      border: 2px solid #4a3933;
+      font-size: 1.5rem;
+      border-radius: 15px;
+      text-align: center;
+      font-family: "Roboto Mono", monospace;
+      margin-top: auto;
+      margin-bottom: auto;
+      display: flex;
+      place-items: center;
+      cursor: pointer;
+    }
+  
+    .rightBttn:active {
+      filter: invert(10%);
+    }
+  
+    .rightBttn i:hover {
+      transform: translateX(5px);
+    }
+  
+    .line6 {
+      height: 10px;
+      width: 100%;
+      background-color: #ffdd55;
+      transform: rotate(5deg);
+    }
+  
+    .nextHeaderBttn2 {
+      border: 2px solid #000000;
+      background-color: #ff9955;
+      font-size: 1.2rem;
+      font-family: "Urbanist", sans-serif;
+      width: 25%;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 1rem;
+      filter: drop-shadow(0 3px 0px white) drop-shadow(0 2px 0px black)
+        drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+    }
+    .footerContent {
+      height: 90%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-end;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      color: #ffffff;
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (min-width: 640px) and (max-width: 999px) {
+    line8 {
+      background-color: #ff9955;
+      width: 10px;
+      height: 100%;
+      position: fixed;
+      left: 22%;
+      z-index: -1;
+      transform: rotate(0.5deg);
+      animation: a8 2s 1 forwards;
+    }
+    .formViewPort {
+      width: 100vw;
+      display: none;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-direction: row;
+    }
+  
+    .closeBttn {
+      background-color: #ff9955;
+      border: 2px solid #000000;
+      width: 35px;
+      height: 35px;
+      border-radius: 13px;
+      position: fixed;
+      z-index: 1;
+      top: 25px;
+      right: 25px;
+      color: #000000;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-content: space-around;
+      font-family: "Urbanist", sans-serif;
+      display: flex;
+      place-items: center;
+    }
+  
+    .closeBttn i {
+      font-size: 2rem;
+    }
+  
+    .closeBttn i:hover {
+      transform: rotateZ(30deg);
+    }
+  
+    .closeBttn:active {
+      filter: invert(10%);
+    }
+  
+    .closeBttn p {
+      margin: auto;
+      font-weight: bolder;
+    }
+  
+    .helpBttn {
+      background-color: #ffdd55;
+      border: 2px solid #000000;
+      width: 35px;
+      height: 35px;
+      border-radius: 13px;
+      position: fixed;
+      z-index: 1;
+      top: 25px;
+      left: 25px;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-content: space-around;
+      font-family: "Urbanist", sans-serif;
+    }
+  
+    .helpBttn:active {
+      filter: invert(10%);
+    }
+  
+    .line7 {
+      background-color: #ffdd55;
+      width: 10px;
+      height: 100%;
+      position: fixed;
+      left: 20%;
+      z-index: -1;
+      animation: a7 2s 1 forwards;
+    }
+  
+    .formPic {
+      width: 20%;
+      position: fixed;
+      z-index: 1;
+      top: 25%;
+      right: 25px;
+    }
+  
+    .upper {
+      display: flex;
+      width: 100%;
+      height: 7%;
+      align-items: flex-end;
+      border: 2px solid #000000;
+    }
+    .up {
+      width: 100%;
+      height: 13%;
+      border: 2px solid #000000;
+      border-top: 0px;
+    }
+    .mid {
+      height: 70%;
+      width: 100%;
+      display: flex;
+    }
+    .left {
+      width: 50%;
+      height: 100%;
+      border: 2px solid #000000;
+      border-top: 0px;
+    }
+    .right {
+      width: 50%;
+      height: 100%;
+      border: 2px solid #000000;
+      border-left: 0px;
+      border-top: 0px;
+    }
+    .bottom {
+      width: 100%;
+      height: 10%;
+      border: 2px solid #000000;
+    }
+  
+    .map {
+      height: 21vh;
+      width: 15vw;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      position: fixed;
+      top: 40%;
+      left: 25px;
+      position: fixed;
+      z-index: 10;
+    }
+  
+    .helpBttn p {
+      margin: auto;
+      font-weight: bolder;
+    }
+  
+    .form {
+      width: 50vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-direction: column;
+      margin-top: 2%;
+    }
+  
+    .inputContainer {
+      width: 85%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-direction: column;
+      margin-bottom: 2%;
+      margin-top: 2;
+      outline: none;
+      border: none;
+    }
+  
+    .inputName {
+      width: 97.5%;
+      font-size: 1.5rem;
+      margin-bottom: 1%;
+      border: 2px solid #000000;
+      border-radius: 1rem;
+    }
+  
+    .inputAbout {
+      width: 97.5%;
+      min-height: 35%;
+      font-size: 1.5rem;
+      margin-bottom: 1%;
+      border: 2px solid #000000;
+      border-radius: 1rem;
+    }
+  
+    .inputAbout::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .inputSkill {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputEdu {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputExp {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputAch {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputInt {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputProj {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputCont {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    legend {
+      font-size: 1.5rem;
+    }
+  
+    .inputList {
+      width: 100%;
+      margin-bottom: 1%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      flex-direction: row;
+      border: 2px solid #000000;
+      border-radius: 1rem;
+      background-color: #ffffff;
+      border-radius: 1rem;
+    }
+  
+    .appendBttn {
+      width: 5%;
+      font-size: 1.5rem;
+      text-align: center;
+      border-left: 2px solid #000000;
+    }
+  
+    .appendBttn:hover {
+      font-size: 1.8rem;
+    }
+  
+    .bttnContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+      margin-top: 3%;
+      margin-bottom: 2%;
+    }
+  
+    .nextBttn {
+      border: 2px solid #000000;
+      background-color: #ff9955;
+      font-size: 1.2rem;
+      font-family: "Urbanist", sans-serif;
+      width: 25%;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 1rem;
+      filter: drop-shadow(0 3px 0px white) drop-shadow(0 2px 0px black)
+        drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+    }
+  
+    .nextBttn:active {
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 2;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: space-around;
+      width: 100%;
+      overflow-y: auto;
+      background-color: rgba(00, 00, 00, 0.5);
+      top: 0;
+      filter: blur(0rem);
+      height: 100vh;
+    }
+  
+    .modalContent {
+      height: 55%;
+      width: 75%;
+      position: relative;
+      background-color: #ffffff;
+      margin: auto;
+      padding: 0;
+      border: 2px solid #000000;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: space-around;
+      overflow: auto;
+      animation: fadeIN 0.4s;
+      -webkit-animation: fadeIN 0.4s;
+    }
+  
+    @keyframes fadeIN {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    .picPart {
+      width: 50%;
+      height: 100%;
+      background-image: url("modalPic.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #ff9955;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .rulePart {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .rulePart li {
+      font-size: 1.2rem;
+      margin: auto;
+    }
+  }
+  
+  @media (min-width: 1000px) and (max-width: 1300px) {
+    line8 {
+      background-color: #ff9955;
+      width: 10px;
+      height: 100%;
+      position: fixed;
+      left: 22%;
+      z-index: -1;
+      transform: rotate(0.5deg);
+      animation: a8 2s 1 forwards;
+    }
+    .formViewPort {
+      width: 100vw;
+      display: none;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-direction: row;
+    }
+  
+    .closeBttn {
+      background-color: #ff9955;
+      border: 2px solid #000000;
+      width: 35px;
+      height: 35px;
+      border-radius: 13px;
+      position: fixed;
+      z-index: 1;
+      top: 25px;
+      right: 25px;
+      color: #000000;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-content: space-around;
+      font-family: "Urbanist", sans-serif;
+      display: flex;
+      place-items: center;
+    }
+  
+    .closeBttn i {
+      font-size: 2rem;
+    }
+  
+    .closeBttn i:hover {
+      transform: rotateZ(30deg);
+    }
+  
+    .closeBttn:active {
+      filter: invert(10%);
+    }
+  
+    .closeBttn p {
+      margin: auto;
+      font-weight: bolder;
+    }
+  
+    .helpBttn {
+      background-color: #ffdd55;
+      border: 2px solid #000000;
+      width: 35px;
+      height: 35px;
+      border-radius: 13px;
+      position: fixed;
+      z-index: 1;
+      top: 25px;
+      left: 25px;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-content: space-around;
+      font-family: "Urbanist", sans-serif;
+    }
+  
+    .helpBttn:active {
+      filter: invert(10%);
+    }
+  
+    .line7 {
+      background-color: #ffdd55;
+      width: 10px;
+      height: 100%;
+      position: fixed;
+      left: 20%;
+      z-index: -1;
+      animation: a7 2s 1 forwards;
+    }
+  
+    .formPic {
+      width: 20%;
+      position: fixed;
+      z-index: 1;
+      top: 25%;
+      right: 25px;
+    }
+  
+    .upper {
+      display: flex;
+      width: 100%;
+      height: 7%;
+      align-items: flex-end;
+      border: 2px solid #000000;
+    }
+    .up {
+      width: 100%;
+      height: 13%;
+      border: 2px solid #000000;
+      border-top: 0px;
+    }
+    .mid {
+      height: 70%;
+      width: 100%;
+      display: flex;
+    }
+    .left {
+      width: 50%;
+      height: 100%;
+      border: 2px solid #000000;
+      border-top: 0px;
+    }
+    .right {
+      width: 50%;
+      height: 100%;
+      border: 2px solid #000000;
+      border-left: 0px;
+      border-top: 0px;
+    }
+    .bottom {
+      width: 100%;
+      height: 10%;
+      border: 2px solid #000000;
+    }
+  
+    .map {
+      height: 28vh;
+      width: 15vw;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      position: fixed;
+      top: 40%;
+      left: 25px;
+      position: fixed;
+      z-index: 10;
+    }
+  
+    .helpBttn p {
+      margin: auto;
+      font-weight: bolder;
+    }
+  
+    .form {
+      width: 50vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-direction: column;
+      margin-top: 2%;
+    }
+  
+    .inputContainer {
+      width: 85%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-direction: column;
+      margin-bottom: 2%;
+      margin-top: 2;
+      outline: none;
+      border: none;
+    }
+  
+    .inputName {
+      width: 97.5%;
+      font-size: 1.5rem;
+      margin-bottom: 1%;
+      border: 2px solid #000000;
+      border-radius: 1rem;
+    }
+  
+    .inputAbout {
+      width: 97.5%;
+      min-height: 35%;
+      font-size: 1.5rem;
+      margin-bottom: 1%;
+      border: 2px solid #000000;
+      border-radius: 1rem;
+    }
+  
+    .inputAbout::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .inputSkill {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputEdu {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputExp {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputAch {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputInt {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputProj {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    .inputCont {
+      width: 90%;
+      font-size: 1.5rem;
+      outline: none;
+      border: none;
+      border-radius: 1rem;
+    }
+  
+    legend {
+      font-size: 1.5rem;
+    }
+  
+    .inputList {
+      width: 100%;
+      margin-bottom: 1%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      flex-direction: row;
+      border: 2px solid #000000;
+      border-radius: 1rem;
+      background-color: #ffffff;
+      border-radius: 1rem;
+    }
+  
+    .appendBttn {
+      width: 5%;
+      font-size: 1.5rem;
+      text-align: center;
+      border-left: 2px solid #000000;
+    }
+  
+    .appendBttn:hover {
+      font-size: 1.8rem;
+    }
+  
+    .bttnContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+      margin-top: 3%;
+      margin-bottom: 2%;
+    }
+  
+    .nextBttn {
+      border: 2px solid #000000;
+      background-color: #ff9955;
+      font-size: 1.2rem;
+      font-family: "Urbanist", sans-serif;
+      width: 25%;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 1rem;
+      filter: drop-shadow(0 3px 0px white) drop-shadow(0 2px 0px black)
+        drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+    }
+  
+    .nextBttn:active {
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 2;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: space-around;
+      width: 100%;
+      overflow-y: auto;
+      background-color: rgba(00, 00, 00, 0.5);
+      top: 0;
+      filter: blur(0rem);
+      height: 100vh;
+    }
+  
+    .modalContent {
+      height: 55%;
+      width: 75%;
+      position: relative;
+      background-color: #ffffff;
+      margin: auto;
+      padding: 0;
+      border: 2px solid #000000;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: space-around;
+      overflow: auto;
+      animation: fadeIN 0.4s;
+      -webkit-animation: fadeIN 0.4s;
+    }
+  
+    @keyframes fadeIN {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    .picPart {
+      width: 50%;
+      height: 100%;
+      background-image: url("modalPic.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #ff9955;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .rulePart {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .rulePart li {
+      font-size: 1.2rem;
+      margin: auto;
+    }
+  }
+  
+
+
+  @media only screen and (max-height: 567px) {
+    .nextHeaderBttn1,
+    .navbar,
+    .content,
+    .nextHeaderBttn2,
+    .form,
+    .nextBttn,
+    .previewMain,
+    .content,
+    .line1,
+    .line6,
+    .line3,
+    .line2,
+    .line4,
+    .line5,
+    .line7,
+    .line8,
+    .line9,
+    .line10,
+    .featureWindow,
+    .templateWIndow,
+    .stepsWindow {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 1150px) {
+    .navbar{
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+  .nextHeaderBttn1,
+  .navbar,
+  .content,
+  .nextHeaderBttn2,
+  .form,
+  .nextBttn,
+  .previewMain,
+  .content,
+  .line1,
+  .line6,
+  .line3,
+  .line2,
+  .line4,
+  .line5,
+  .line7,
+  .line8,
+  .line9,
+  .line10,
+  .featureWindow,
+  .templateWIndow,
+  .stepsWindow {
+    display: none;
+  }
+}

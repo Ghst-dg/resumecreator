@@ -1,0 +1,390 @@
+.formViewPort{
+    width: 100vw;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+.closeBttn{
+    background-color: #ff9955;
+    border: 2px solid #000000;
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    position: fixed;
+    z-index: 1;
+    top: 25px;
+    right: 25px;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    font-family: 'Urbanist', sans-serif;
+    display: flex;
+    place-items: center;
+}
+
+.closeBttn i{
+    font-size: 2rem;
+}
+
+.closeBttn i:hover{
+    transform: rotateZ(30deg);
+}
+
+.closeBttn:active{
+    filter: invert(10%);
+}
+
+.closeBttn p{
+    margin: auto;
+    font-weight: bolder;
+}
+
+.helpBttn{
+    background-color: #ffdd55;
+    border: 2px solid #000000;
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    position: fixed;
+    z-index: 1;
+    top: 25px;
+    left: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.helpBttn:active{
+    filter: invert(10%);
+}
+
+
+.line7{
+    background-color: #ffdd55;
+    width: 10px;
+    height: 100%;
+    position: fixed;
+    left: 20%;
+    z-index: -1;
+    animation: a7 2s 1 forwards;
+}
+
+@keyframes a7{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+.line8{
+    background-color: #ff9955;
+    width: 10px;
+    height: 100%;
+    position: fixed;
+    left: 22%;
+    z-index: -1;
+    transform: rotate(2deg);
+    animation: a8 2s 1 forwards;
+}
+
+@keyframes a8{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+.formPic{
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    right: 25px;
+}
+
+.upper {
+    display: flex;
+    width: 100%;
+    height: 7%;
+    align-items: flex-end;
+    border: 2px solid #000000;
+}
+.up {
+    width: 100%;
+    height: 13%;
+    border: 2px solid #000000;
+    border-top: 0px;
+}
+.mid {
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+.left {
+    width: 50%;
+    height: 100%;
+    border: 2px solid #000000;
+    border-top: 0px;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    border: 2px solid #000000;
+    border-left: 0px;
+    border-top: 0px;
+}
+.bottom {
+    width: 100%;
+    height: 10%;
+    border: 2px solid #000000;
+}
+
+.map{
+    height: 282px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: fixed;
+    top: 40%;
+    left: 25px;
+    position: fixed;
+    z-index: 10;
+}
+
+.helpBttn p{
+    margin: auto;
+    font-weight: bolder;
+}
+
+.form{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.inputContainer{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+    margin-bottom: 2%;
+    margin-top: 2;
+    outline: none;
+    border: none;
+}
+
+.inputName{
+    width: 97.5%;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+}
+
+.inputAbout{
+    width: 97.5%;
+    min-height: 40%;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+
+.inputAbout::-webkit-scrollbar{
+    display: none;
+}
+
+.inputSkill{
+    width: 90%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+
+.inputEdu{
+    width: 90%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+
+.inputExp{
+    width: 90%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+
+.inputAch{
+    width: 90%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+
+.inputInt{
+    width: 90%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+
+.inputProj{
+    width: 90%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+
+.inputCont{
+    width: 90%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+
+legend{
+    font-size: 2.5rem;
+}
+
+.inputList{
+    width: 100%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+
+.appendBttn{
+    width: 7%;
+    font-size: 2rem;
+    text-align: center;
+    border-left: 2px solid #000000;
+}
+
+.appendBttn:hover{
+    font-size: 2.5rem;
+}
+
+.bttnContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.nextBttn{
+    border: 2px solid #000000;
+    background-color: #ff9955;
+    font-size: 1.5rem;
+    font-family: 'Urbanist', sans-serif;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 1rem;
+    filter: drop-shadow(0 3px 0px white) drop-shadow(0 2px 0px black) drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+.nextBttn:active{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(00, 00, 00, 0.5);
+    top: 0;
+    filter: blur(0rem);
+}
+
+.modalContent{
+    height: 75%;
+    width: 75%;
+    position: relative;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 0;
+    border: 2px solid #000000;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    overflow: auto;
+    animation: fadeIN 0.4s;
+    -webkit-animation: fadeIN 0.4s;
+}
+
+@keyframes fadeIN{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.picPart{
+    width: 30%;
+    height: 100%;
+    background-image: url('modalPic.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9955;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.rulePart{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rulePart li{
+    font-size: 2rem;
+    margin: auto;
+}

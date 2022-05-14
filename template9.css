@@ -1,0 +1,504 @@
+.resume{
+    background-color: #FFFFFF;
+    width: 30vw;
+    height: 85vh;
+    box-shadow: 2px 2px 4px #000000;
+    font-family: monospace;
+    display: block;
+    margin: auto;
+}
+
+.resumeTitle
+{
+    background-color: #;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20%;
+    display: block;
+}
+
+.resumeName
+{
+    background-color: #FFFFFF ;
+    height: 30%;
+}
+
+.resumeAbout
+{
+    background-color: #333333;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.resumeContent
+{
+    background-color: #c83771;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resumeEEP
+{
+    background-color: #FFFFFF;
+    width: 69%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.resumeAIP
+{
+    background-color: #c83771;
+    width: 29%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.resumeProf
+{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.name
+{
+    font-size: 3em;
+    color: #000000;
+}
+
+.about
+{
+    font-size: 1em;
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.prof
+{
+    font-size: 1em;
+}
+
+.wcard
+{
+    display: block;
+    max-width: 90%;
+    max-height: 100%;
+    margin: auto;
+    background: inherit;
+}
+
+.wcardHeader
+{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1em;
+    background: inherit;
+}
+
+.wcardTitle
+{
+    font-size: 1.5em;
+    margin: 0;
+    color: #000000;
+}
+
+.wcardContent
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background: inherit;
+}
+
+.wcardList
+{
+    font-size: 0.8em;
+    color: #000000;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+}
+
+.hcard
+{
+    display: block;
+    max-width: 90%;
+    max-height: 100%;
+    margin: auto;
+    background: inherit;
+}
+
+.hcardHeader
+{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1rem;
+    background: inherit;
+}
+
+.hcardTitle
+{
+    font-size: 1.5em;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.hcardContent
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background: inherit;
+}
+
+.hcardList
+{
+    font-size: 0.8em;
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+}
+
+@media (min-width: 1201px)
+{
+    .resume{
+        width: 30vw;
+        height: 85vh;
+    }
+
+    .name{
+    font-size: 3em;
+    }
+
+    .about{
+    font-size: 1em;
+    }
+
+    .prof{
+    font-size: 1em;
+    }
+
+    .wcardHeader{
+    margin-bottom: 0.8em;
+    }
+
+    .wcardTitle{
+    font-size: 1.5em;
+    }
+
+    .wcardList{
+    font-size: 0.7em;
+    }
+
+    .hcardHeader{
+    margin-bottom: 1em;
+    }
+
+    .hcardTitle{
+    font-size: 1.5em;
+    }
+
+    .hcardList{
+    font-size: 0.8em;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px)
+{
+    .resume{
+        width: 45vw;
+        height: 90vh;
+    }
+
+    .name{
+    font-size: 3em;
+    }
+
+    .about{
+    font-size: 1em;
+    }
+
+    .prof{
+    font-size: 1em;
+    }
+
+    .wcardHeader{
+    margin-bottom: 0.8em;
+    }
+
+    .wcardTitle{
+    font-size: 1.5em;
+    }
+
+    .wcardList{
+    font-size: 0.8em;
+    }
+
+    .hcardHeader{
+    margin-bottom: 1em;
+    }
+
+    .hcardTitle{
+    font-size: 1.5em;
+    }
+
+    .hcardList{
+    font-size: 0.9em;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1024)
+{
+    .resume{
+        width: 45vw;
+        height: 90vh;
+    }
+
+    .name{
+    font-size: 3em;
+    }
+
+    .about{
+    font-size: 1em;
+    }
+
+    .prof{
+    font-size: 1em;
+    }
+
+    .wcardHeader{
+    margin-bottom: 0.8em;
+    }
+
+    .wcardTitle{
+    font-size: 1.5em;
+    }
+
+    .wcardList{
+    font-size: 0.8em;
+    }
+
+    .hcardHeader{
+    margin-bottom: 1em;
+    }
+
+    .hcardTitle{
+    font-size: 1.5em;
+    }
+
+    .hcardList{
+    font-size: 0.9em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .resume{
+        width: 65vw;
+        height: 90vh;
+    }
+
+    .name{
+    font-size: 3em;
+    }
+
+    .about{
+    font-size: 1em;
+    }
+
+    .prof{
+    font-size: 1em;
+    }
+
+    .wcardHeader{
+    margin-bottom: 0.8em;
+    }
+
+    .wcardTitle{
+    font-size: 1.5em;
+    }
+
+    .wcardList{
+    font-size: 0.8em;
+    }
+
+    .hcardHeader{
+    margin-bottom: 1em;
+    }
+
+    .hcardTitle{
+    font-size: 1.5em;
+    }
+
+    .hcardList{
+    font-size: 0.9em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px)
+{
+    .resume{
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .name{
+    font-size: 3em;
+    }
+
+    .about{
+    font-size: 1em;
+    }
+
+    .prof{
+    font-size: 1em;
+    }
+
+    .wcardHeader{
+    margin-bottom: 0.8em;
+    }
+
+    .wcardTitle{
+    font-size: 1.5em;
+    }
+
+    .wcardList{
+    font-size: 0.8em;
+    }
+
+    .hcardHeader{
+    margin-bottom: 1em;
+    }
+
+    .hcardTitle{
+    font-size: 1.5em;
+    }
+
+    .hcardList{
+    font-size: 0.9em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px)
+{
+    .resume{
+        width: 97vw;
+        height: 90vh;
+    }
+
+    .name{
+    font-size: 3em;
+    }
+
+    .about{
+    font-size: 1em;
+    }
+
+    .prof{
+    font-size: 1em;
+    }
+
+    .wcardHeader{
+    margin-bottom: 0.8em;
+    }
+
+    .wcardTitle{
+    font-size: 1.5em;
+    }
+
+    .wcardList{
+    font-size: 0.8em;
+    }
+
+    .hcardHeader{
+    margin-bottom: 1em;
+    }
+
+    .hcardTitle{
+    font-size: 1.5em;
+    }
+
+    .hcardList{
+    font-size: 0.9em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .resume{
+        width: 120vw;
+        height: 80vh;
+    }
+
+    .name{
+    font-size: 2em;
+    }
+
+    .about{
+    font-size: 0.7em;
+    }
+
+    .prof{
+    font-size: 0.7em;
+    }
+
+    .wcardHeader{
+    margin-bottom: 0.6em;
+    }
+
+    .wcardTitle{
+    font-size: 1em;
+    }
+
+    .wcardList{
+    font-size: 0.6em;
+    }
+
+    .hcardHeader{
+    margin-bottom: 1em;
+    }
+
+    .hcardTitle{
+    font-size: 0.8em;
+    }
+
+    .hcardList{
+    font-size: 0.7em;
+    }
+}
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */

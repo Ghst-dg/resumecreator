@@ -1,0 +1,679 @@
+.preview{
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.sideMenu{
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.line10{
+    height: 100%;
+    width: 10px;
+    background-color: #ff9955;
+    left: 0px;
+    position: fixed;
+    z-index: -1;
+    animation: a10 2s 1 forwards;
+}
+
+@keyframes a10{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+.line9{
+    height: 100%;
+    width: 10px;
+    background-color: #ffdd55;
+    left: 20px;
+    position: fixed;
+    z-index: -1;
+    animation: a9 2s 1;
+}
+
+@keyframes a9{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+
+.templateControlCard
+{
+    width: 65%;
+    height: 45%;
+    border: 2px solid #000000;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fontControlCard
+{
+    width: 65%;
+    height: 45%;
+    border: 2px solid #000000;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.controlCardTitle
+{
+    height: 10%;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.controlCardContent
+{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.controlCardFooter
+{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.templateControlAppend{
+    height: 35px;
+    width: 35px;
+    background-color: #ff9955;
+    border: 2px solid #000000;
+    border-radius: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+}
+
+.templateControlAppend:active{
+    filter: invert(10%);
+}
+
+.templateControlBack{
+    height: 35px;
+    width: 35px;
+    background-color: #ffdd55;
+    border: 2px solid #000000;
+    border-radius: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.templateControlBack:active{
+    filter: invert(10%);
+}
+
+.templateControlCardImage{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.tempImage{
+    width: 60%;
+    border: 1px solid #000000;
+}
+
+.templateControlCardText{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.fontControlAppend{
+    height: 35px;
+    width: 35px;
+    background-color: #ff9955;
+    border: 2px solid #000000;
+    border-radius: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+}
+
+.fontControlAppend:active{
+    filter: invert(10%);
+}
+
+.fontControlBack{
+    height: 35px;
+    width: 35px;
+    background-color: #ffdd55;
+    border: 2px solid #000000;
+    border-radius: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.fontControlBack:active{
+    filter: invert(10%);
+}
+
+.fontControlCardImage{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+}
+
+.fontBoxed{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fontControlCardText{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (max-height: 800px)
+{
+    .fontControlCard{
+        width: 200px;
+        height: 275px;
+    }
+    .templateControlCard{
+        width: 200px;
+        height: 275px;
+    }
+    .controlCardTitle{
+        font-size: 1.5rem;
+    }
+    .tempImage{
+        width: 50%;
+    }
+    .templateControlCardText{
+        font-size: 1rem;
+    }
+    .fontControlCardText{
+        font-size: 1rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .fontBoxed{
+        font-size: 1rem;
+    }
+
+    .templateControlAppend{
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+    }
+
+    .templateControlBack{
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+    }
+
+    .fontControlAppend{
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+    }
+
+    .fontControlBack{
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+    }
+
+    .fontControlCardImage{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+
+@media  screen and (max-width: 1620px) {
+    .fontControlCard{
+        width: 200px;
+        height: 275px;
+    }
+    .templateControlCard{
+        width: 200px;
+        height: 275px;
+    }
+    .controlCardTitle{
+        font-size: 1.5rem;
+    }
+    .tempImage{
+        width: 50%;
+    }
+    .templateControlCardText{
+        font-size: 1rem;
+    }
+    .fontControlCardText{
+        font-size: 1rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .fontBoxed{
+        font-size: 1rem;
+    }
+
+    .templateControlAppend{
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+    }
+
+    .templateControlBack{
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+    }
+
+    .fontControlAppend{
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+    }
+
+    .fontControlBack{
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        border-radius: 0.5rem;
+    }
+
+    .fontControlCardImage{
+        width: 70%;
+        height: 70%;
+    }
+    .sideMenu{
+        align-content: flex-end;
+    }
+}
+
+@media  screen and (max-width: 1420px) {
+    .fontControlCard{
+        width: 175px;
+        height: 250px;
+    }
+    .templateControlCard{
+        width: 175px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1160px){
+    .fontControlCard{
+        width: 175px;
+        height: 250px;
+    }
+    .templateControlCard{
+        width: 175px;
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+    .fontControlCard{
+        width: 150px;
+        height: 225px;
+    }
+    .templateControlCard{
+        width: 150px;
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .fontControlCard{
+        width: 125px;
+        height: 200px;
+        border-radius: 1.5rem;
+    }
+    .templateControlCard{
+        width: 125px;
+        height: 200px;
+        border-radius: 1.5rem;
+    }
+
+    .controlCardTitle{
+        font-size: 1rem;
+    }
+
+    .templateControlAppend{
+        height: 15px;
+        width: 15px;
+        font-size: 15px;
+        border-radius: 0.25rem;
+    }
+
+    .templateControlBack{
+        height: 15px;
+        width: 15px;
+        font-size: 15px;
+        border-radius: 0.25rem;
+    }
+
+    .fontControlAppend{
+        height: 15px;
+        width: 15px;
+        font-size: 15px;
+        border-radius: 0.25rem;
+    }
+
+    .fontControlBack{
+        height: 15px;
+        width: 15px;
+        font-size: 15px;
+        border-radius: 0.25rem;
+    }
+}
+
+.previewMain{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.previewPort{
+    width: 37vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: bch 40s infinite;
+}
+
+.buttonContainerPort{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.resumeImageBttn{
+    height: 280px;
+    width: 180px;
+    box-shadow: 2px 4px 4px #000000;
+}
+
+.resumeImageBttn:active{
+    box-shadow: 1px 2px 2px #000000;
+}
+
+.goBackBttn{
+    border: 2px solid #000000;
+    background-color: #ffdd55;
+    font-size: 35px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    place-items: center;
+}
+
+.goBackBttn:active{
+    filter: invert(10%);
+}
+
+.downloadBttn{
+    border: 2px solid #000000;
+    background-color: #ff9955;
+    text-align: center;
+    font-size: 35px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    border-radius: 15px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-content: center;
+    animation: riple 1s infinite;
+}
+
+
+.fontControlBox{
+    width: 25vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.fontControlBttnContainer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: row;
+    text-align: left;
+}
+
+
+.fontAppender{
+    background-color: #ff9955;
+    border: 2px solid #000000;
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fontAppender:active{
+    filter: invert(10%);
+}
+
+.fontDecrease{
+    background-color: #ffdd55;
+    border: 2px solid #000000;
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fontDecrease:active{
+    filter: invert(10%);
+}
+
+.indicator{
+    background-color: #ffffff;
+    width: 70%;
+    height: 55%;
+    border-radius: 1rem;
+    border: 2px solid #000000;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fontSizeVal{
+    font-size: 32px;
+}
+
+.controlTitle{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1880px) {
+    .indicator{
+        background-color: #ffffff;
+        width: 70%;
+        height: 45%;
+        border-radius: 1rem;
+        border: 2px solid #000000;
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        place-items: center;
+    }
+}
+
+@media  screen and (max-width: 1430px) {
+    .fontAppender{
+        width: 35px;
+        height: 35px;
+        border-radius: 12px;
+        font-size: 25px;
+    }
+
+    .fontDecrease{
+        width: 35px;
+        height: 35px;
+        border-radius: 12px;
+        font-size: 25px;
+    }
+
+    .indicator{
+        background-color: #ffffff;
+        width: 60%;
+        height: 45%;
+        border-radius: 1rem;
+        border: 2px solid #000000;
+        font-size: 1.25rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        place-items: center;
+    }
+}
+
+
+@media  screen and (max-width: 1111px) {
+
+    .indicator{
+        background-color: #ffffff;
+        width: 60%;
+        height: 45%;
+        border-radius: 1rem;
+        border: 2px solid #000000;
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        place-items: center;
+    }
+}
+
+@media  screen and (max-width: 860px) {
+
+    .indicator{
+        background-color: #ffffff;
+        width: 50%;
+        height: 45%;
+        border-radius: 1rem;
+        border: 2px solid #000000;
+        font-size: 0.8rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .resume{
+        height: 525px;
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .resume{
+        height: 350px;
+        width: 248px;
+    }
+}
