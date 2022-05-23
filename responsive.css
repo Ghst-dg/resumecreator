@@ -1,13 +1,20 @@
-@media (min-width: 640px) and (max-width: 1300px) {
+@media (min-width: 640px) and (max-width: 1450px) {
     h1 {
       font-size: 2rem;
       margin-bottom: auto;
       display: inline;
       margin-left: 10px;
     }
-  
+    .hyLinks{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
     .lnk {
-      font-size: 1.2rem;
+      font-size: 1rem;
       width: 100%;
       text-align: center;
       cursor: pointer;
@@ -151,7 +158,7 @@
   
     .downBttn {
       height: 5vh;
-      width: 5vw;
+      width: 5vh;
       background-color: #ff9955;
       border: 2px solid #000000;
       border-radius: 15px;
@@ -192,15 +199,15 @@
     .stepsWindow {
       width: 100vw;
       height: 150vh;
-      display: frid;
-      grid-template-columns: repeat(3, 30vw);
+      display: grid;
+      grid-template-columns: repeat(3, 250px);
       justify-content: space-around;
       align-content: space-evenly;
     }
   
     .tag {
-      width: 25vw;
-      height: 45vh;
+      width: 250px;
+      height: 450px;
       background-color: #ffffff;
       border: 2px solid #000000;
       border-radius: 20px;
@@ -213,14 +220,14 @@
     }
   
     .tagText {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
     }
   
     .tagImg {
-      width: 20vh;
+      width: 180px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -237,7 +244,7 @@
   
     .leftBttn {
       height: 5vh;
-      width: 5vw;
+      width: 5vh;
       background-color: #ffdd55;
       border: 2px solid #000000;
       border-radius: 15px;
@@ -356,7 +363,7 @@
   
     .rightBttn {
       height: 5vh;
-      width: 5vw;
+      width: 5vh;
       background-color: #ff9955;
       border: 2px solid #4a3933;
       font-size: 1.5rem;
@@ -413,7 +420,7 @@
   }
 
   @media (min-width: 640px) and (max-width: 999px) {
-    line8 {
+    .line8 {
       background-color: #ff9955;
       width: 10px;
       height: 100%;
@@ -609,7 +616,7 @@
     }
   
     .inputSkill {
-      width: 90%;
+      width: 88%;
       font-size: 1.5rem;
       outline: none;
       border: none;
@@ -617,7 +624,7 @@
     }
   
     .inputEdu {
-      width: 90%;
+      width: 88%;
       font-size: 1.5rem;
       outline: none;
       border: none;
@@ -625,7 +632,7 @@
     }
   
     .inputExp {
-      width: 90%;
+      width: 88%;
       font-size: 1.5rem;
       outline: none;
       border: none;
@@ -633,7 +640,7 @@
     }
   
     .inputAch {
-      width: 90%;
+      width: 88%;
       font-size: 1.5rem;
       outline: none;
       border: none;
@@ -641,7 +648,7 @@
     }
   
     .inputInt {
-      width: 90%;
+      width: 88%;
       font-size: 1.5rem;
       outline: none;
       border: none;
@@ -649,7 +656,7 @@
     }
   
     .inputProj {
-      width: 90%;
+      width: 88%;
       font-size: 1.5rem;
       outline: none;
       border: none;
@@ -657,7 +664,7 @@
     }
   
     .inputCont {
-      width: 90%;
+      width: 88%;
       font-size: 1.5rem;
       outline: none;
       border: none;
@@ -1210,11 +1217,11 @@
     }
   }
 
-  @media only screen and (max-width: 1150px) {
+  /* @media only screen and (max-width: 1150px) {
     .navbar{
       display: none;
     }
-  }
+  } */
 
   @media only screen and (max-width: 767px) {
   .nextHeaderBttn1,
@@ -1239,5 +1246,10 @@
   .templateWIndow,
   .stepsWindow {
     display: none;
+  }
+}
+@media screen and (max-width:962px){
+  .navbar{
+    display:none;
   }
 }

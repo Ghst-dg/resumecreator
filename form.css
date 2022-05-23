@@ -25,14 +25,16 @@
     font-family: 'Urbanist', sans-serif;
     display: flex;
     place-items: center;
+    cursor: pointer;
 }
 
 .closeBttn i{
     font-size: 2rem;
+    transition:transform 0.3s ease-in-out ;
 }
 
 .closeBttn i:hover{
-    transform: rotateZ(30deg);
+    transform: rotateZ(180deg) scale(1.1);
 }
 
 .closeBttn:active{
@@ -59,12 +61,12 @@
     justify-content: space-around;
     align-content: space-around;
     font-family: 'Urbanist', sans-serif;
+    cursor: pointer;
 }
 
 .helpBttn:active{
     filter: invert(10%);
 }
-
 
 .line7{
     background-color: #ffdd55;
@@ -215,49 +217,49 @@
 }
 
 .inputSkill{
-    width: 90%;
+    width: 88%;
     font-size: 2rem;
     outline: none;
     border: none;
 }
 
 .inputEdu{
-    width: 90%;
+    width: 88%;
     font-size: 2rem;
     outline: none;
     border: none;
 }
 
 .inputExp{
-    width: 90%;
+    width: 88%;
     font-size: 2rem;
     outline: none;
     border: none;
 }
 
 .inputAch{
-    width: 90%;
+    width: 88%;
     font-size: 2rem;
     outline: none;
     border: none;
 }
 
 .inputInt{
-    width: 90%;
+    width: 88%;
     font-size: 2rem;
     outline: none;
     border: none;
 }
 
 .inputProj{
-    width: 90%;
+    width: 88%;
     font-size: 2rem;
     outline: none;
     border: none;
 }
 
 .inputCont{
-    width: 90%;
+    width: 88%;
     font-size: 2rem;
     outline: none;
     border: none;
@@ -285,6 +287,7 @@ legend{
     font-size: 2rem;
     text-align: center;
     border-left: 2px solid #000000;
+    cursor: pointer;
 }
 
 .appendBttn:hover{
@@ -313,6 +316,7 @@ legend{
     cursor: pointer;
     border-radius: 1rem;
     filter: drop-shadow(0 3px 0px white) drop-shadow(0 2px 0px black) drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+    cursor: pointer;
 }
 
 .nextBttn:active{
@@ -334,6 +338,7 @@ legend{
     background-color: rgba(00, 00, 00, 0.5);
     top: 0;
     filter: blur(0rem);
+    cursor: pointer;
 }
 
 .modalContent{
@@ -354,6 +359,7 @@ legend{
     overflow: auto;
     animation: fadeIN 0.4s;
     -webkit-animation: fadeIN 0.4s;
+    cursor: default;
 }
 
 @keyframes fadeIN{

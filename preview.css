@@ -125,6 +125,7 @@
     text-align: center;
     display: flex;
     place-items: center;
+    cursor: pointer;
 }
 
 .templateControlAppend:active{
@@ -144,6 +145,7 @@
     display: flex;
     place-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .templateControlBack:active{
@@ -181,6 +183,7 @@
     text-align: center;
     display: flex;
     place-items: center;
+    cursor: pointer;
 }
 
 .fontControlAppend:active{
@@ -200,6 +203,7 @@
     display: flex;
     place-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .fontControlBack:active{
@@ -488,10 +492,19 @@
     justify-content: center;
     align-content: center;
     place-items: center;
+    cursor: pointer;
 }
 
 .goBackBttn:active{
     filter: invert(10%);
+}
+
+.goBackBttn i{
+    transition: transform 0.3s ease-in-out;
+}
+
+.goBackBttn i:hover{
+    transform: translateX(-10px) scale(1.2);
 }
 
 .downloadBttn{
@@ -508,9 +521,16 @@
     place-items: center;
     justify-content: center;
     align-content: center;
-    animation: riple 1s infinite;
+    cursor: pointer;
 }
-
+.downloadBttn i {
+    animation: riple 1.5s ease-in-out infinite ;
+}
+@keyframes riple{
+    50%{
+    transform: translateY(10px) ;
+    }
+}
 
 .fontControlBox{
     width: 25vw;
@@ -545,6 +565,7 @@
     border-radius: 15px;
     font-size: 25px;
     text-align: center;
+    cursor: pointer;
 }
 
 .fontAppender:active{
@@ -559,6 +580,7 @@
     border-radius: 15px;
     font-size: 25px;
     text-align: center;
+    cursor: pointer;
 }
 
 .fontDecrease:active{
